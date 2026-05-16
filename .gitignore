@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Course data files kept locally, not synced to Git.
+*.csv
+NYPD_Material/star_schema_nypd_complaints.db
+NYPD_Material/start_schema_nypd_complaints.db

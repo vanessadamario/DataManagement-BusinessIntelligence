@@ -1,0 +1,23 @@
+jupyterlab>=4,<5
+notebook>=7,<8
+ipykernel>=6,<7
+
+# SQL support for the existing %sql and %%sql notebook cells.
+ipython-sql==0.4.1
+SQLAlchemy>=1.4,<2
+prettytable==0.7.2
+pandasql==0.7.3
+csvkit>=2,<3
+
+# Data analysis and visualization used across the notebooks.
+pandas>=1.5,<3
+numpy>=1.23,<3
+matplotlib>=3.6,<4
+seaborn>=0.12,<1
+openpyxl>=3.1,<4
+
+# Week 7 sentiment-analysis notebook.
+torch
+transformers>=4.40,<5
+datasets>=2,<4
+accelerate>=0.28,<2
